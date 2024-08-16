@@ -1,7 +1,7 @@
 
 import LottieView from "lottie-react-native";
 import React from "react";
-
+//mais que demais
 export function Loading() {
     return <LottieView
         source={require('../../lotties/loading.json')}

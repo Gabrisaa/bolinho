@@ -2,7 +2,7 @@ import React from 'react';
 import { createBottomTabNavigator, BottomTabNavigationProp } from '@react-navigation/bottom-tabs';
 import { Mensagem } from '../screens/Mensagem';
 import { Perfil } from '../screens/Perfil';
-import { colors } from '../styles/globalstyle';
+import { colors } from '../styles/globalstyles';
 import { AntDesign, Ionicons } from '@expo/vector-icons';
 
 type TabParamList = {

@@ -13,3 +13,21 @@ export interface IResponseUser {
     updated_at: string
     id: number
 }
+export interface IAuthenticated {
+    user: IResponseUser
+    token: {
+        token: string
+        expires_at: string
+    }
+}
+
+class UserData {
+    register(data: IUser) {
+        return api.post<IResponseUser>('/register', data)
+    }
+    login(data: IUser) {
+        return api.post<IAuthenticated>('/login', data)
+    }
+}
+
+export default new UserData()

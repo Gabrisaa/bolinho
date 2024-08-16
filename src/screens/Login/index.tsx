@@ -15,10 +15,11 @@ export interface IAuthenticate {
 
 export function Login({ navigation }: LoginTypes) {
     const [data, setData] = useState<IAuthenticate>();
-    const {signIn,setLoading}=useAuth()
+    const {signIn,setLoading} = useAuth()
     const fundinho = require("../../assets/fundinho.jpg")
     async function handleSignIn() {
         if (data?.email && data.password) {
+            setLoading(true)
             try {
                 await signIn(data)
             }catch (error) {

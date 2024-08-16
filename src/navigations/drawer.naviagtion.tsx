@@ -1,6 +1,6 @@
 import React from 'react';
 import { createDrawerNavigator, DrawerNavigationProp } from '@react-navigation/drawer';
-import { colors } from '../styles/globalstyle';
+import { colors } from '../styles/globalstyles';
 import { Ionicons } from '@expo/vector-icons';
 import { TabNavigation } from './tab.navigation';
 type DrawerParamList = {
@@ -34,8 +34,5 @@ export function DrawerNavigation() {
                 }}
             />
         </Drawer.Navigator>
-            
-        
-        
     )
 }
