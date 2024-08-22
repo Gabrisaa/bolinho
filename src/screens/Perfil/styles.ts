@@ -11,7 +11,7 @@ export const styles = StyleSheet.create({
         fontWeight: "bold"
     },
     sociais: {
-        backgroundColor: colors.third,
+        backgroundColor: colors.primary,
         marginBottom: 20,
         flexDirection: "row",
         padding: 10,

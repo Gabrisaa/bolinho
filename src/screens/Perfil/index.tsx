@@ -15,14 +15,14 @@ export function Perfil() {
             <View>
                 <View style={styles.sociais}>
                     <FontAwesome5 name="instagram" size={24} color="black" />
-                    <Text style={styles.sociaisText}>https://www.instagram.com/</Text>
+                    <Text style={styles.sociaisText}>Gabi linda no insta</Text>
                 </View>
                 <View style={styles.sociais}>
                     <FontAwesome5 name="twitter" size={24} color="black" />
-                    <Text style={styles.sociaisText}>https://x.com/</Text>
+                    <Text style={styles.sociaisText}>Gabi linda no twitter</Text>
                 </View>
             </View>
-            <ButtonInterface title="Sair" type="primary"
+            <ButtonInterface title="  Sair  " type="primary"
                 onPressI={async () => await signOut()}
             />
         </View>
