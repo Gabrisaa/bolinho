@@ -4,11 +4,13 @@ import { Mensagem } from '../screens/Mensagem';
 import { Perfil } from '../screens/Perfil';
 import { Camera } from '../screens/Camera'
 import { colors } from '../styles/globalstyles';
+import FontAwesome from '@expo/vector-icons/FontAwesome';
 import { AntDesign, Ionicons } from '@expo/vector-icons';
 
 type TabParamList = {
     Perfil: undefined
     Mensagem: undefined
+    Camera: undefined
 }
 type TabScreenNavigationProp = BottomTabNavigationProp<TabParamList, 'Perfil'>
 export type TabTypes = {
@@ -34,10 +36,10 @@ export function TabNavigation() {
                     ),
 }}
 />
-            <Tab.Screen name='Mensagem' component={Mensagem}
+            <Tab.Screen name='Camera' component={Camera}
                 options={{
                     tabBarIcon: () => (
-                        <AntDesign name="message1" size={24} color={ colors.primary } />
+                        <FontAwesome name="camera-retro" size={24} color={ colors.primary } />
 ),
 }}
 />

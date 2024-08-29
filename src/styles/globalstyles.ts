@@ -8,4 +8,11 @@ export const colors = {
     secondary: "#d0c2cf",
     third: "#fe5668",
     black: "#000000",
+    rosao:"#d3a2b1",
+    verdinho:"#a7cec4",
+    roxo:"#c8a2c8",
+    laranjinha:"#d5b4a0",
+    azul:"#cbe1ff",
+    outroazul:"#52b3ff",
+    branco:"#FFFFFF"
 }

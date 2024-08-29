@@ -11,13 +11,36 @@ export const styles = StyleSheet.create({
         fontWeight: "bold"
     },
     sociais: {
-        backgroundColor: colors.primary,
-        marginBottom: 20,
+        backgroundColor: colors.verdinho,
+        marginBottom: 10,
         flexDirection: "row",
-        padding: 10,
-        borderRadius: 10
+        padding: 25,
+        borderRadius: 1
+    },
+    star: {
+        backgroundColor: colors.rosao,
+        marginBottom: 10,
+        flexDirection: "row",
+        padding: 25,
+        borderRadius: 1
+    },
+    contatos: {
+        backgroundColor: colors.roxo,
+        marginBottom: 10,
+        flexDirection: "row",
+        padding: 25,
+        borderRadius: 1
+    },
+    alimentos: {
+        backgroundColor: colors.laranjinha,
+        marginBottom: 10,
+        flexDirection: "row",
+        padding: 25,
+        borderRadius: 1
     },
     sociaisText: {
-        marginLeft: 5
+        marginLeft: 20,
+        fontSize:17,
     }
+   
 })
