@@ -44,12 +44,11 @@
         }
       ],
       [
-        "expo-image-picker"
+        "expo-image-picker",
         {
-          "photosPermission":"O aplicativo acessa suas fotos para que você possa compartilhá-las"
+          "photosPermission": "O aplicativo acessa suas fotos para que você possa compartilhá-las"
         }
       ]
     ]
   }
 }
-
